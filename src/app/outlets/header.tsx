@@ -39,9 +39,9 @@ const Header = () => {
 
     return (
         <header
-            className='fixed top-2 z-20 w-full h-[100px] flex items-center border-b border-white/50 '
+            className='fixed top-2 z-20 w-full bg-[#f1f1f1] h-[100px] flex items-center '
             id='menu'
-        > <div className="fixed  top-0  h-2 bg-[#2f4eb3] w-full"></div>
+        > <div className="fixed  top-0  h-2 bg-[#05266b] w-full"></div>
             <div className="relative  flex justify-between items-center w-full global-container ">
               
                 <Link href="/">

@@ -1,11 +1,14 @@
 @import "tailwindcss";
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+
 
 html {
   scroll-behavior: smooth;
 }
 body {
   color: rgba(0, 0, 0, 0.8);
-  background-color: #fafafae6; /* Your desired background color */
+  background-color: #f1f1f1; /* Your desired background color */
 }
 .global-container{
   margin-left: auto;
@@ -17,7 +20,7 @@ body {
 
 
 h1{
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 4rem;
   font-weight: bold;
 }
@@ -47,4 +50,8 @@ p{
 .bg-dotted-footer {
   border-bottom: 2px dotted #91765a;
   
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none !important; /* hides the default arrow */
 }
