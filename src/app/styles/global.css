@@ -25,33 +25,41 @@ h1{
   font-weight: bold;
 }
 h2{
-  font-size: 2.7rem;
   font-weight: bold;
-  line-height: 3.5rem;
+  font-size: 2.2rem;
+  line-height: 2.2rem;
 }
 @media(max-width: 768px) {
   h1{
     font-size: 2.5rem;
-    line-height: 3.5rem;
+    line-height: 3rem;
  
   }
   h2{
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
   }
 }
 p{
   line-height: 1.8rem;
 }
 .bg-dotted {
-  border-bottom: 2px dotted rgba(0, 0, 0, 0.2);
+  border-bottom: 2px dotted rgb(66, 66, 66);
   
 }
 .bg-dotted-footer {
-  border-bottom: 2px dotted #91765a;
+  border-bottom: 2px dotted #303030;
   
 }
 .swiper-button-prev::after,
 .swiper-button-next::after {
   display: none !important; /* hides the default arrow */
+}
+.swiper-pagination-bullet {
+  background-color: #999;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000;
 }
