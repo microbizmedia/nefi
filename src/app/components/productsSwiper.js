@@ -16,14 +16,12 @@ import image6 from '../../../public/products/6.png';
 import image7 from '../../../public/products/7.png';
 import image8 from '../../../public/products/8.jpg';
 import image9 from '../../../public/products/9.webp';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9];
 
 export default function ProductsSwiper() {
   return (
-<div className="relative ">
+<div className="relative mt-10 ">
   {/* Swiper Slider */}
   <Swiper
     modules={[Navigation, Pagination]}
@@ -39,7 +37,7 @@ export default function ProductsSwiper() {
     slidesPerView={5}
      slidesPerGroup={5}  // ✅ Move 5 slides at a time
   loop={false}         // ✅ Optional: disable loop to show clean separation
-    className="h-full mt-6  w-[1400px]"
+    className="h-full   w-[1400px]"
   >
     {images.map((img, index) => (
       <SwiperSlide key={index}>

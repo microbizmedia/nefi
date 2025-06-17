@@ -8,18 +8,17 @@ const Hero = () => {
   return (
       <div className="w-full flex justify-center h-[600px]">
     <div className="relative w-[1600px] max-w-none">
-   {/* <div className="absolute right-1/2 translate-x-1/2 w-[2000px]"></div> */}
       <div className="relative z-10 max-w-[1600px] mx-auto">
-      <h1 className='mt-40 global-container'>{t('heroHeader')}</h1>
-      <div className='flex justify-start  gap-6 h-[500px] mt-6  w-[1400px]'>
+      <h1 className='mt-44 global-container'>{t('heroHeader')}</h1>
+      <div className='flex justify-start  gap-6 h-[500px] mt-10  w-[1400px]'>
         <div className='w-full lg:w-[75%]  '>
           <ImageSlider />
         </div>
-        <div className='lg:w-[25%]   bg-[#dbdbdb]'>
+        <div className='lg:w-[25%]   bg-[#e3e3e3]'>
           <img
             src="/DJI_0090.jpg"
             alt="Description"
-            className="w-full h-50 object-cover rounded-md"
+            className="w-full h-50 object-cover"
           />
           <div className="flex flex-col space-y-6 p-6">
             <h3 className=" font-semibold ">{t('renewability')}</h3>
