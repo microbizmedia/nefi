@@ -21,7 +21,7 @@ const images = [image1, image2, image3, image4, image5, image6, image7, image8, 
 
 export default function ProductsSwiper() {
   return (
-<div className="relative mt-10 ">
+<div className="relative mt-8 ">
   {/* Swiper Slider */}
   <Swiper
     modules={[Navigation, Pagination]}

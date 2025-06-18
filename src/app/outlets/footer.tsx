@@ -29,7 +29,7 @@ const Footer = () => {
         <div className='h-[1px] w-full bg-[#ffffffe8] opacity-25' />
         {/* Footer Bottom */}
         <div className=' pt-8 pb-12  text-md flex justify-between'>
-          <p>© Nefi Doel Delchevo{new Date().getFullYear()} </p>
+          <p>© Nefi Doel Delchevo {new Date().getFullYear()} </p>
           <p >Designed by MicroBiz Media LLC ©</p>
         </div>
 

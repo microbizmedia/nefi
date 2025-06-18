@@ -8,7 +8,7 @@ const Certificates = () => {
 
     <div className='global-container mt-24'>
       <h2>Certified Precision</h2>
-      <div className="grid grid-cols-2 gap-6 mx-auto mt-10">
+      <div className="grid grid-cols-2 gap-6 mx-auto mt-8">
         <div className="bg-[#e3e3e3] h-[280px] p-10">
           <img
             src="/icons/progenz.png"
