@@ -44,7 +44,7 @@ const Header = () => {
         > <div className="fixed  top-0  h-2 bg-[#05266b] w-full"></div>
             <div className="relative  flex justify-between items-center w-full global-container ">
               
-                <Link href="/">
+                <Link onClick={handleMenu} href="/">
                     <Image
                         src="/logo-standard.png" // Your image path (must be inside /public)
                         alt="logo-ne-fi"
@@ -63,10 +63,10 @@ const Header = () => {
 
                 >
                     <ul className="site-menu-main">
-                        <Link onClick={handleMenu} href="/" ><li>{t('Home')}</li></Link>
-                        <Link onClick={handleMenu} href="/" ><li>{t('Products')}</li></Link>
-                        <Link onClick={handleMenu} href="/" ><li>{t('Company')}</li></Link>
-                        <Link onClick={handleMenu} href="/" ><li>{t('Contact')}</li></Link>
+                        <Link onClick={handleMenu} href="#home" ><li>{t('Home')}</li></Link>
+                        <Link onClick={handleMenu} href="#products" ><li>{t('Products')}</li></Link>
+                        <Link onClick={handleMenu} href="#production" ><li>{t('Company')}</li></Link>
+                        <Link onClick={handleMenu} href="#contact" ><li>{t('Contact')}</li></Link>
                        <li><LanguageSelector /></li>
 
                         <li>

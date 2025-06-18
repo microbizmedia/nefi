@@ -7,7 +7,7 @@ const Contact = () => {
   const { t } = useTranslation();
   return (
 
-    <div className='global-container mt-24'>
+    <div className='global-container mt-24 scroll-mt-40' id='contact'>
       <h2>{t('Contact us')}</h2>
       <div className="bg-[#e3e3e3] flex justify-between mx-auto mt-8">
         <div className='p-15'>

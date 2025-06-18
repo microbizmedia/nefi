@@ -6,7 +6,7 @@ import { ChevronRight } from 'lucide-react';
 const Hero = () => {
   const { t } = useTranslation();
   return (
-      <div className="w-full flex justify-center h-[600px]">
+      <div className="w-full flex justify-center h-[600px]" id='home'>
     <div className="relative w-[1600px] max-w-none">
       <div className="relative z-10 max-w-[1600px] mx-auto">
       <h1 className='mt-44 global-container'>{t('heroHeader')}</h1>
@@ -23,9 +23,9 @@ const Hero = () => {
           <div className="flex flex-col space-y-6 p-6">
             <h3 className=" font-semibold ">{t('renewability')}</h3>
             <h3 className=" font-semibold -mt-6">{t('sustainability')}</h3>
-            <a href="#" className="text-blue-400 flex items-center mt-4"> {t('about us')} <ChevronRight  strokeWidth={1.3}/></a>
-            <a href="#" className="text-blue-400 flex items-center ">{t('certificates')} <ChevronRight  strokeWidth={1.3}/> </a>
-            <a href="#" className="text-blue-400 flex items-center ">{t('get in touch')} <ChevronRight  strokeWidth={1.3}/> </a>
+            <a href="#stories" className="text-blue-400 flex items-center mt-4"> {t('about us')} <ChevronRight  strokeWidth={1.3}/></a>
+            <a href="#certificates" className="text-blue-400 flex items-center ">{t('certificates')} <ChevronRight  strokeWidth={1.3}/> </a>
+            <a href="#contact" className="text-blue-400 flex items-center ">{t('get in touch')} <ChevronRight  strokeWidth={1.3}/> </a>
           </div>
         </div>
       </div>

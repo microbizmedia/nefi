@@ -9,7 +9,7 @@ const Products = () => {
 
 
 
-    <div className="w-full flex justify-center  mt-42">
+    <div className="w-full flex justify-center  mt-42 scroll-mt-24" id='products' >
       <div className="relative w-[1600px] max-w-none">
         <div className="relative z-10 max-w-[1200px] mx-auto">
           {/* Place content here that should stay in 1200px bounds */}

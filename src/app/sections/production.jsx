@@ -6,7 +6,7 @@ const Production = () => {
   const { t } = useTranslation();
   return (
 
-    <div className='global-container mt-24'>
+    <div className='global-container mt-24 scroll-mt-40' id='production'>
       <h2>{t('Production and technology')}</h2>
       <div className="flex flex-col gap-6 mx-auto mt-8">
 

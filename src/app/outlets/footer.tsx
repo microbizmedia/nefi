@@ -20,10 +20,10 @@ const Footer = () => {
         </div>
         <div className="">
           <ul className="flex flex-wrap gap-8 pb-14 text-xl">
-            <Link href="/" ><li>{t('Home')}</li></Link>
-            <Link href="/" ><li>{t('Products')}</li></Link>
-            <Link href="/" ><li>{t('Company')}</li></Link>
-            <Link href="/" ><li>{t('Contact')}</li></Link>
+            <Link href="#home" ><li>{t('Home')}</li></Link>
+            <Link href="#products" ><li>{t('Products')}</li></Link>
+            <Link href="#stories" ><li>{t('Company')}</li></Link>
+            <Link href="#contact" ><li>{t('Contact')}</li></Link>
           </ul>
         </div>
         <div className='h-[1px] w-full bg-[#ffffffe8] opacity-25' />
