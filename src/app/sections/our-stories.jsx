@@ -6,9 +6,9 @@ const Production = () => {
   const { t } = useTranslation();
   return (
 
-    <div className='global-container my-24 scroll-mt-40' id='stories'>
+    <div className='global-container my-24 scroll-mt-40 overflow-hidden' id='stories'>
       <h2>{t('Our Stories')}</h2>
-       <div className="grid grid-cols-2 gap-6 mx-auto mt-8">
+       <div className="md:grid md:grid-cols-2 gap-6 mx-auto mt-8">
 
         <div className="bg-[#e3e3e3]"  >
           <img

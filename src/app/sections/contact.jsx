@@ -7,10 +7,10 @@ const Contact = () => {
   const { t } = useTranslation();
   return (
 
-    <div className='global-container mt-24 scroll-mt-40' id='contact'>
+    <div className='global-container mt-24 scroll-mt-40 overflow-hidden' id='contact'>
       <h2>{t('Contact us')}</h2>
-      <div className="bg-[#e3e3e3] flex justify-between mx-auto mt-8">
-        <div className='p-15'>
+      <div className="bg-[#e3e3e3] flex flex-col-reverse md:flex-row justify-between mx-auto mt-8">
+        <div className='ml-5 my-15 sm:ml-20'>
             <h3 className='font-semibold'>{t('FAQ and support')}</h3>
             <a href="#" className="text-[#05266b] flex items-center mt-3 mb-6 gap-x-2"> <Mail className="w-5 h-5 text-[#05266b]" /> {t('info@nefi.com')} </a>
             <h3  className='font-semibold' >{t('Chief Executive Officer')}</h3>
@@ -24,7 +24,7 @@ const Contact = () => {
          <img
             src="/logo-standard.png"
             alt="Description"
-            className="object-cover h-20 m-auto"
+            className="object-cover h-20 m-auto ml-5 sm:ml-20 md:ml-auto  mt-20 md:mt-auto"
           />
       </div>
     </div>

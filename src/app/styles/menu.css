@@ -99,13 +99,13 @@
       transform: rotate(180deg);
     }
   
-    .menu-block .mobile-menu-head .current-menu-title {
+    /* .menu-block .mobile-menu-head .current-menu-title {
       font-size: 15px;
       font-weight: 500;
       color: #eb0404;
       visibility: hidden;
       text-transform: capitalize;
-    }
+    } */
   
     .menu-block .mobile-menu-head.active .current-menu-title {
       visibility: visible;

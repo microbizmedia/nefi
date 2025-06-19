@@ -21,16 +21,14 @@ export default function ImageSlider() {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             }}
-            className="h-full"
+            className="h-auto md:h-full"
             spaceBetween={0} slidesPerView={1} loop={true}
         >
             {images.map((img, index) => (
                 <SwiperSlide key={index}>
                     <Image src={img}
                         alt={`Slide ${index + 1}`}
-                        width={1920}
-                        height={1080}
-                        className="w-full h-auto object-cover"
+                        className="w-full object-cover h-full"
                         priority />
                 </SwiperSlide>
             ))}

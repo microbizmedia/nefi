@@ -11,19 +11,15 @@ const Production = () => {
       <div className="flex flex-col gap-6 mx-auto mt-8">
 
 
-
-      
-
-
-        <div className="bg-white h-[320px] flex"  >
+        <div className="bg-white  md:h-auto flex flex-col md:flex-row"  >
           <img
             src="/assets/image2.jpg"
             alt="Description"
-            className="object-cover w-[50%]"
+            className="object-cover md:w-[50%] w-full h-[200px] md:h-[320px]"
           />
-          <div className='my-10 mx-6 flex flex-col w-[50%]'>
+          <div className='my-6 md:my-10 mx-4 md:mx-6 flex flex-col md:w-[50%]'>
             <h2 className='mb-3'>{t('Industry Leaders')}</h2>
-            <p>Safe work enviroments</p>
+            <p>Safe work enviroments Safe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work </p>
             <div className="mt-auto">
               <a href="#" className="text-blue-400 flex items-center"> {t('Read more')} <ChevronRight strokeWidth={1.3} /></a>
             </div>
@@ -31,8 +27,8 @@ const Production = () => {
         </div>
 
 
-          <div className="bg-white h-[320px] flex">
-          <div className='my-10 mx-6 flex flex-col w-[50%]'>
+    <div className="bg-white  md:h-auto flex flex-col-reverse md:flex-row"  >
+           <div className='my-6 md:my-10 mx-4 md:mx-6 flex flex-col md:w-[50%]'>
             <h2 className='mb-3'>{t('Dedicated Workforce')}</h2>
             <p>Safe work enviroments</p>
             <div className="mt-auto">
@@ -42,18 +38,18 @@ const Production = () => {
           <img
             src="/assets/personel-01.png"
             alt="Description"
-            className="object-cover w-[50%]"
+            className="object-cover md:w-[50%] w-full h-[200px] md:h-[320px]"
           />
         </div>
 
 
-        <div className="bg-white h-[320px] flex">
+       <div className="bg-white  md:h-auto flex flex-col md:flex-row"  >
           <img
             src="/assets/sustainability_home.jpeg"
             alt="Description"
-            className="object-cover object-bottom w-[52%]"
+            className="object-cover md:w-[52%] w-full h-[200px] md:h-[320px]"
           />
-          <div className='my-10 mx-6 flex flex-col w-[48%]'>
+           <div className='my-6 md:my-10 mx-4 md:mx-6 flex flex-col md:w-[48%]'>
             <h2 className='mb-3'>{t('A Sustainability Pledge')}</h2>
             <p>Safe work enviroments</p>
             <div className="mt-auto">
@@ -62,8 +58,8 @@ const Production = () => {
           </div>
         </div>
 
-          <div className="bg-white h-[320px] flex">
-          <div className='my-10 mx-6 flex flex-col w-[50%]'>
+           <div className="bg-white  md:h-auto flex flex-col-reverse md:flex-row"  >
+           <div className='my-6 md:my-10 mx-4 md:mx-6 flex flex-col md:w-[50%]'>
             <h2 className='mb-3'>{t('The Lab')}</h2>
             <p>Safe work enviroments</p>
             <div className="mt-auto">
@@ -73,7 +69,7 @@ const Production = () => {
           <img
             src="/assets/facility-01.png"
             alt="Description"
-            className="object-cover w-[50%]"
+           className="object-cover md:w-[50%] w-full h-[200px] md:h-[320px]"
           />
         </div>
 
