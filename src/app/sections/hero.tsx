@@ -1,10 +1,12 @@
 'use client'
+import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next';
 import ImageSlider from '../components/heroSwiper';
 import { ChevronRight } from 'lucide-react';
 
 const Hero = () => {
-  const { t } = useTranslation();
+   const { t } = useTranslation();
+
   return (
       <div className="w-full flex justify-center h-[600px]" id='home'>
     <div className="relative w-[1600px] max-w-none">
