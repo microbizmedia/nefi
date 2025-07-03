@@ -7,17 +7,23 @@ import 'swiper/css/navigation';
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css/pagination';
 import Image from 'next/image';
-import image1 from '../../../public/products/1.jpg';
+import image1 from '../../../public/products/1.png';
 import image2 from '../../../public/products/2.png';
-import image3 from '../../../public/products/3.webp';
-import image4 from '../../../public/products/4.jpg';
+import image8 from '../../../public/products/8.webp';
+import image4 from '../../../public/products/4.png';
 import image5 from '../../../public/products/5.png';
 import image6 from '../../../public/products/6.png';
 import image7 from '../../../public/products/7.png';
-import image8 from '../../../public/products/8.jpg';
-import image9 from '../../../public/products/9.webp';
+import image3 from '../../../public/products/3.png';
 
-const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9];
+const images = [ image1, image2, image3, image4, image5, image6, image7, image8 ];
+const descriptions = [
+  "Tow Wear",
+  "Shirts and T-shirts",
+  "Pants and shorts",
+    "Shoes and boots",
+  "Accessories"
+];
 
 export default function ProductsSwiper() {
   return (
@@ -70,9 +76,10 @@ export default function ProductsSwiper() {
             <Image
               src={img}
               alt={`Slide ${index + 1}`}
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-cover bg-[#e3e3e3] pt-15 pb-4"
               priority
             />
+            <p className='bg-[#e3e3e3] text-center pb-10'>{descriptions[index] || "No description available"}</p>
           </SwiperSlide>
         ))}
       </Swiper>
@@ -96,7 +103,7 @@ export default function ProductsSwiper() {
           </button>
         </div>
       </div>
-      {/* <div className="pointer-events-none absolute right-[-200px] top-0 h-full w-[300px] bg-gradient-to-l from-white to-transparent z-10" /> */}
+      <div className="pointer-events-none absolute right-[-200px] top-0  w-[220px] h-[411px] bg-gradient-to-l from-[#e3e3e3] to-transparent z-10" />
 
     </div>
 

@@ -16,7 +16,7 @@ const Hero = () => {
             </div>
             <div className='invisible xl:visible w-full  bg-[#e3e3e3]'>
               <img
-                src="/DJI_0090.jpg"
+                src="/assets/DJI_0090.jpg"
                 alt="Description"
                 className="w-full h-50 object-cover"
               />

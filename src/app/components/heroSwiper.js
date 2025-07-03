@@ -6,9 +6,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import Image from 'next/image';
-import image1 from '../../../public/DJI_0090.jpg';
-import image2 from '../../../public/assets/image.jpg';
-import image3 from '../../../public/assets/personel-01.png';
+import image1 from '../../../public/assets/hero_01.png';
+import image2 from '../../../public/assets/facility-01.png';
+import image3 from '../../../public/assets/DJI_0090.jpg';
 
 const images = [image1, image2, image3];
 

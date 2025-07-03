@@ -14,7 +14,28 @@ const Footer = () => {
 
 
 
-          <div ></div>
+          <div  className='flex gap-12'> 
+             <img
+                src="/icons/linked_in.png"
+                alt="Description"
+                className="w-8 h-8 object-cover"
+              />
+              <img
+                src="/icons/fb.png"
+                alt="Description"
+                className="w-8 h-8   object-cover"
+              />
+              <img
+                src="/icons/ig.png"
+                alt="Description"
+                className="w-8 h-8   object-cover"
+              />
+              <img
+                src="/icons/x.png"
+                alt="Description"
+                className="w-8 h-8  object-cover"
+              />
+          </div>
 
 
         </div>
