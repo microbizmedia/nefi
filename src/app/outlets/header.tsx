@@ -66,7 +66,7 @@ const Header = () => {
 
                 <Link onClick={handleMenu} href="/">
                     <Image
-                        src="/logo-standard.png" // Your image path (must be inside /public)
+                        src="/logo.png" // Your image path (must be inside /public)
                         alt="logo-ne-fi"
                         width={120} // Adjust size as needed
                         height={40}

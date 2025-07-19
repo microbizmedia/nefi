@@ -7,9 +7,9 @@ const Contact = () => {
   const { t } = useTranslation();
   return (
 
-    <div className='global-container mt-24 scroll-mt-40 overflow-hidden' id='contact'>
+    <div className='global-container mt-24 scroll-mt-36 ' id='contact'>
       <h2>{t('Contact us')}</h2>
-      <div className="bg-[#e3e3e3] flex flex-col-reverse md:flex-row justify-between mx-auto mt-8">
+      <div className="bg-[#e3e3e3] flex flex-col-reverse md:flex-row justify-between mx-auto mt-8 overflow-hidden">
         <div className='ml-5 my-15 sm:ml-20'>
             <h3 className='font-semibold'>{t('FAQ and support')}</h3>
             <a href="#" className="text-[#05266b] flex items-center mt-3 mb-6 gap-x-2"> 
@@ -43,7 +43,7 @@ const Contact = () => {
         </div>
 
          <img
-            src="/logo-standard.png"
+            src="/logo.png"
             alt="Description"
             className="object-cover h-20 m-auto ml-5 sm:ml-20 md:ml-auto  mt-20 md:mt-auto"
           />

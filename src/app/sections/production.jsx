@@ -19,7 +19,7 @@ const Production = () => {
           />
           <div className='my-6 md:my-10 mx-4 md:mx-6 flex flex-col md:w-[50%]'>
             <h2 className='mb-3'>{t('Industry Leaders')}</h2>
-            <p>Safe work enviroments Safe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work enviromentsSafe work </p>
+            <p>{t('Industry Leaders text')}</p>
             <div className="mt-auto">
               <a href="#" className="text-blue-400 flex items-center"> {t('Read more')} <ChevronRight strokeWidth={1.3} /></a>
             </div>
@@ -30,7 +30,7 @@ const Production = () => {
     <div className="bg-white  md:h-auto flex flex-col-reverse md:flex-row"  >
            <div className='my-6 md:my-10 mx-4 md:mx-6 flex flex-col md:w-[50%]'>
             <h2 className='mb-3'>{t('Dedicated Workforce')}</h2>
-            <p>Safe work enviroments</p>
+            <p>{t('Dedicated Workforce text')}</p>
             <div className="mt-auto">
               <a href="#" className="text-blue-400 flex items-center"> {t('Read more')} <ChevronRight strokeWidth={1.3} /></a>
             </div>
@@ -51,7 +51,7 @@ const Production = () => {
           />
            <div className='my-6 md:my-10 mx-4 md:mx-6 flex flex-col md:w-[48%]'>
             <h2 className='mb-3'>{t('A Sustainability Pledge')}</h2>
-            <p>Safe work enviroments</p>
+            <p>{t('A Sustainability Pledge text')}</p>
             <div className="mt-auto">
               <a href="#" className="text-blue-400 flex items-center"> {t('Read more')} <ChevronRight strokeWidth={1.3} /></a>
             </div>
@@ -61,7 +61,7 @@ const Production = () => {
            <div className="bg-white  md:h-auto flex flex-col-reverse md:flex-row"  >
            <div className='my-6 md:my-10 mx-4 md:mx-6 flex flex-col md:w-[50%]'>
             <h2 className='mb-3'>{t('The Lab')}</h2>
-            <p>Safe work enviroments</p>
+            <p>{t('The Lab text')}</p>
             <div className="mt-auto">
               <a href="#" className="text-blue-400 flex items-center"> {t('Read more')} <ChevronRight strokeWidth={1.3} /></a>
             </div>
